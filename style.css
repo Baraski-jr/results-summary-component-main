@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100svh;
+    height: 100vh;
 }
 .main {
     display: flex;
@@ -149,9 +149,6 @@ button:hover {
 /* Mobile version */
 @media screen and (max-width: 440px)  {
 
-    /* .container {
-        height: 100svh;
-    } */
     .container .main {
         display: block;
         height: 100vh;
