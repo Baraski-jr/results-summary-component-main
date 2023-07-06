@@ -180,6 +180,9 @@ button:hover {
     .seconday-section {
         width: 100%;
     }
+    .seconday-section .btn {
+        margin-block: 1rem;
+    }
     .react-btn {
         display: flex;
         justify-content: center;
