@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100svh;
 }
 .main {
     display: flex;
@@ -148,10 +148,16 @@ button:hover {
 
 /* Mobile version */
 @media screen and (max-width: 440px)  {
+
+    /* .container {
+        height: 100svh;
+    } */
     .container .main {
         display: block;
         height: 100vh;
         border-radius: none;
+        border: 3px solid red;
+
     }
     .container .main .main-section {
         width: 100vw;
@@ -161,13 +167,7 @@ button:hover {
         border-bottom-left-radius: 3rem;
         padding: 1rem 3rem;
     }
-    /* .main-section {
-        padding: 3rem;
-        background-image: linear-gradient(to bottom, var(--gradinet-primary-color), var(--gradinet-secondary-color));
-        height: 32rem;
-        width: 22rem;
-        border-radius: 2rem;
-    } */
+
     .main-section .scores-display {
         margin-block: 1rem;
         display: flex;
@@ -182,12 +182,10 @@ button:hover {
         font-size: 3rem;
     }
     .seconday-section {
-        /* border: 2px solid red; */
         width: 100%;
     }
     .react-btn {
         display: flex;
         justify-content: center;
-        /* border: 2px solid red; */
     }
 }
